@@ -1,0 +1,18 @@
+{
+  "claude-plugins-official": {
+    "source": {
+      "source": "github",
+      "repo": "anthropics/claude-plugins-official"
+    },
+    "installLocation": "/Users/lyrumu/.claude/plugins/marketplaces/claude-plugins-official",
+    "lastUpdated": "2026-08-09T05:56:00.258Z"
+  },
+  "ponytail": {
+    "source": {
+      "source": "git",
+      "url": "https://github.com/DietrichGebert/ponytail.git"
+    },
+    "installLocation": "/Users/lyrumu/.claude/plugins/marketplaces/ponytail",
+    "lastUpdated": "2026-08-07T06:49:28.977Z"
+  }
+}

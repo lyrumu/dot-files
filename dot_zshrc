@@ -1,0 +1,37 @@
+export PATH="$HOME/.opencode/bin:$PATH"
+
+#常用别名
+alias ll='ls -lah'
+
+#快捷设置关闭临时代理
+proxyon() {
+    export http_proxy=http://127.0.0.1:7897
+    export https_proxy=http://127.0.0.1:7897
+    export all_proxy=socks5://127.0.0.1:7897
+    echo "Proxy enabled"
+}
+proxyoff() {
+    unset http_proxy
+    unset https_proxy
+    unset all_proxy
+    echo "Proxy disabled"
+}
+# End of proxy functions
+
+eval "$(starship init zsh)"
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/Users/lyrumu/.lmstudio/bin"
+# End of LM Studio CLI section
+
+# Hermes Agent — ensure ~/.local/bin is on PATH
+export PATH="$HOME/.local/bin:$PATH"
+typeset -U path
+# End of Hermes Agent section
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="$HOME/.sdkman"
+[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"

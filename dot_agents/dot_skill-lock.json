@@ -1,0 +1,61 @@
+{
+  "version": 3,
+  "skills": {
+    "find-skills": {
+      "source": "vercel-labs/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/skills.git",
+      "skillPath": "skills/find-skills/SKILL.md",
+      "skillFolderHash": "76a98a285cb0434f3d39e1a873823556330e398b",
+      "installedAt": "2026-07-25T10:11:03.530Z",
+      "updatedAt": "2026-07-25T10:11:21.003Z"
+    },
+    "frontend-design": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/anthropics/skills.git",
+      "skillPath": "skills/frontend-design/SKILL.md",
+      "skillFolderHash": "0d5b74a14bdf3ebcd64f352d06376a2ef05ed296",
+      "pluginName": "example-skills",
+      "installedAt": "2026-07-25T10:13:19.540Z",
+      "updatedAt": "2026-07-25T10:13:19.540Z"
+    },
+    "hallmark": {
+      "source": "nutlope/hallmark",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/nutlope/hallmark.git",
+      "skillPath": "skills/hallmark/SKILL.md",
+      "skillFolderHash": "3943c7eb8106e9352f9b164ec81f9bb262d2951b",
+      "installedAt": "2026-08-02T15:23:13.741Z",
+      "updatedAt": "2026-08-02T15:23:13.741Z"
+    },
+    "gc-minimal-zine-poster-v0-1": {
+      "source": "LiamGvchi/gc-minimal-zine-poster",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/LiamGvchi/gc-minimal-zine-poster.git",
+      "skillPath": "SKILL.md",
+      "skillFolderHash": "4cb0396ad4e834019f753b37e1c4f415f5e02026",
+      "installedAt": "2026-08-08T13:45:12.513Z",
+      "updatedAt": "2026-08-08T13:45:12.513Z"
+    }
+  },
+  "dismissed": {
+    "findSkillsPrompt": true
+  },
+  "lastSelectedAgents": [
+    "amp",
+    "antigravity",
+    "antigravity-cli",
+    "cline",
+    "codex",
+    "cursor",
+    "deepagents",
+    "gemini-cli",
+    "github-copilot",
+    "kimi-code-cli",
+    "opencode",
+    "warp",
+    "zed",
+    "trae"
+  ]
+}
