@@ -3,3 +3,5 @@
 [user]
 	name = lyrumu
 	email = 243039598+lyrumu@users.noreply.github.com
+[push]
+	autoSetupRemote = true
