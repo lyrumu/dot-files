@@ -7,6 +7,7 @@
   "launchOnStartup": false,
   "silentStartup": false,
   "enableLocalProxy": true,
+  "usageDashboardRefreshIntervalMs": 10000,
   "enableFailoverToggle": false,
   "showProfileSwitcher": true,
   "preserveCodexOfficialAuthOnSwitch": false,
@@ -22,7 +23,8 @@
     "grokbuild": false,
     "opencode": true,
     "openclaw": false,
-    "hermes": true
+    "hermes": true,
+    "pi": false
   },
   "currentProviderClaude": "91dbc0a4-c75b-4bd7-9ae1-b6f4cd0ce1c6",
   "skillSyncMethod": "auto",
