@@ -10,6 +10,8 @@
 		<string>off</string>
 		<key>appUpdatesIncludeAppStore</key>
 		<true/>
+		<key>appUpdatesIncludeHomebrewApps</key>
+		<true/>
 		<key>appUpdatesNotify</key>
 		<true/>
 		<key>autoCheckUpdates</key>
@@ -19,6 +21,7 @@
 		<key>autoQuitExceptions</key>
 		<array>
 			<string>com.apple.finder</string>
+			<string>com.bot.pc.doubao</string>
 		</array>
 		<key>batteryLimitPercent</key>
 		<integer>5</integer>
@@ -44,6 +47,16 @@
 		<true/>
 		<key>cleanerScheduleWeekday</key>
 		<integer>2</integer>
+		<key>clipboardAutoClearDelaySeconds</key>
+		<integer>20</integer>
+		<key>clipboardAutoClearOnDelay</key>
+		<false/>
+		<key>clipboardAutoClearOnDisplaySleep</key>
+		<false/>
+		<key>clipboardAutoClearOnScreenLock</key>
+		<false/>
+		<key>clipboardAutoClearOnSleep</key>
+		<false/>
 		<key>clipboardHistoryEnabled</key>
 		<false/>
 		<key>clipboardHistoryIgnoredApps</key>
@@ -62,17 +75,17 @@
 		<false/>
 		<key>colorPickerFormat</key>
 		<string>hex</string>
-		<key>colorPickerShortcut</key>
-		<string>control+option+command:8</string>
-		<key>colorPickerShortcutEnabled</key>
-		<false/>
 		<key>commandBarAliases</key>
 		<string></string>
 		<key>commandBarDisabledSources</key>
 		<string></string>
+		<key>commandBarFileIgnores</key>
+		<string></string>
 		<key>commandBarHidden</key>
 		<string></string>
 		<key>commandBarPins</key>
+		<string></string>
+		<key>commandBarPositionOffset</key>
 		<string></string>
 		<key>commandBarShortcut</key>
 		<string>option:49</string>
@@ -126,6 +139,8 @@
 		<false/>
 		<key>featureAvailable.finderRename</key>
 		<true/>
+		<key>featureAvailable.focusFollowsMouse</key>
+		<false/>
 		<key>featureAvailable.homebrew</key>
 		<true/>
 		<key>featureAvailable.keepAwake</key>
@@ -145,7 +160,7 @@
 		<key>featureAvailable.monitorDisk</key>
 		<false/>
 		<key>featureAvailable.monitorGPU</key>
-		<false/>
+		<true/>
 		<key>featureAvailable.monitorMemory</key>
 		<true/>
 		<key>featureAvailable.monitorNetwork</key>
@@ -204,6 +219,10 @@
 		<false/>
 		<key>finderRenameShortcut</key>
 		<string>:120</string>
+		<key>focusFollowsMouseDelayMilliseconds</key>
+		<integer>250</integer>
+		<key>focusFollowsMouseEnabled</key>
+		<false/>
 		<key>hasOnboarded</key>
 		<true/>
 		<key>hotkeyEnabled</key>
@@ -235,7 +254,7 @@
 		<key>keyboardDebounceWindowMs</key>
 		<integer>5</integer>
 		<key>lastUpdateIntroVersion</key>
-		<string>3.3.1</string>
+		<string>3.3.2</string>
 		<key>launchAtLoginWanted</key>
 		<true/>
 		<key>mediaGIFEnd</key>
@@ -250,14 +269,44 @@
 		<real>0.0</real>
 		<key>mediaGIFWidth</key>
 		<integer>720</integer>
+		<key>mediaImageBackground</key>
+		<string>transparent</string>
+		<key>mediaImageExactResizeMode</key>
+		<string>stretch</string>
 		<key>mediaImageFormat</key>
 		<string>jpeg</string>
 		<key>mediaImageMaxDimension</key>
 		<integer>1600</integer>
+		<key>mediaImagePreserveModificationDate</key>
+		<false/>
+		<key>mediaImageProfiles</key>
+		<string>[]</string>
 		<key>mediaImageQuality</key>
 		<real>0.71999999999999997</real>
+		<key>mediaImageRenamePattern</key>
+		<string></string>
+		<key>mediaImageResizeHeight</key>
+		<integer>1200</integer>
+		<key>mediaImageResizeKind</key>
+		<string>maxDimension</string>
+		<key>mediaImageResizeWidth</key>
+		<integer>1600</integer>
+		<key>mediaImageSelectedProfileID</key>
+		<string></string>
 		<key>mediaImageStripMetadata</key>
 		<true/>
+		<key>mediaImageWatermarkKind</key>
+		<string>off</string>
+		<key>mediaImageWatermarkMargin</key>
+		<integer>32</integer>
+		<key>mediaImageWatermarkOpacity</key>
+		<real>0.45000000000000001</real>
+		<key>mediaImageWatermarkPosition</key>
+		<string>bottomRight</string>
+		<key>mediaImageWatermarkScale</key>
+		<real>0.17999999999999999</real>
+		<key>mediaImageWatermarkText</key>
+		<string></string>
 		<key>mediaLastTool</key>
 		<string>videoCompressor</string>
 		<key>mediaTextAccurate</key>
@@ -305,7 +354,7 @@
 		<key>menuBarMemory</key>
 		<true/>
 		<key>menuBarMemoryStyle</key>
-		<string>percent</string>
+		<string>both</string>
 		<key>menuBarMetricAppearance</key>
 		<string>values</string>
 		<key>menuBarMetricOrder</key>
@@ -472,6 +521,8 @@
 		<true/>
 		<key>panelControlFilesExpanded</key>
 		<false/>
+		<key>panelControlFocusFollowsMouse</key>
+		<true/>
 		<key>panelControlInputExpanded</key>
 		<false/>
 		<key>panelControlKeyDebounce</key>
@@ -592,6 +643,8 @@
 		<string>off</string>
 		<key>radialMenuShortcut</key>
 		<string>control+option+command:49</string>
+		<key>recorderAutomaticZoom</key>
+		<true/>
 		<key>recorderCountdown</key>
 		<integer>3</integer>
 		<key>recorderEditorPresets</key>
@@ -604,19 +657,15 @@
 		<key>recorderGIFSize</key>
 		<string>medium</string>
 		<key>recorderMicrophone</key>
-		<false/>
+		<true/>
 		<key>recorderOpenEditor</key>
 		<true/>
 		<key>recorderQuality</key>
-		<string>balanced</string>
+		<string>high</string>
 		<key>recorderSaveFolder</key>
 		<string>/Users/lyrumu/Downloads</string>
 		<key>recorderSharingEnabled</key>
 		<true/>
-		<key>recorderShortcut</key>
-		<string>control+option+command:23</string>
-		<key>recorderShortcutEnabled</key>
-		<false/>
 		<key>recorderSystemAudio</key>
 		<true/>
 		<key>releaseNotesOnUpdate</key>
@@ -627,23 +676,18 @@
 		<true/>
 		<key>scratchpadDocument</key>
 		<data>
-		eyJwYWRzIjpbeyJ0ZXh0IjoiIiwiaWQiOiJENEY0Q0ZFOC03OTlCLTQwRkYt
-		OEVCQS01NENCNzk5MkU4RDMiLCJuYW1lIjoi6I2J56i/5p2/In1dLCJzZWxl
-		Y3RlZElEIjoiRDRGNENGRTgtNzk5Qi00MEZGLThFQkEtNTRDQjc5OTJFOEQz
-		In0=
+		eyJwYWRzIjpbeyJuYW1lIjoidG1wIiwiaWQiOiJENEY0Q0ZFOC03OTlCLTQw
+		RkYtOEVCQS01NENCNzk5MkU4RDMiLCJ0ZXh0IjoiIn1dLCJzZWxlY3RlZElE
+		IjoiRDRGNENGRTgtNzk5Qi00MEZGLThFQkEtNTRDQjc5OTJFOEQzIn0=
 		</data>
 		<key>scratchpadRetention</key>
-		<string>day</string>
+		<string>never</string>
 		<key>scratchpadShortcut</key>
 		<string>option:17</string>
 		<key>scratchpadShortcutEnabled</key>
 		<true/>
 		<key>screenOCRDetectQRCodes</key>
 		<true/>
-		<key>screenOCRShortcut</key>
-		<string>control+option+command:17</string>
-		<key>screenOCRShortcutEnabled</key>
-		<false/>
 		<key>screenshotAnnotationShadows</key>
 		<false/>
 		<key>screenshotBackdropPresets</key>
@@ -722,12 +766,14 @@
 		<false/>
 		<key>shelfDropZoneEnabled</key>
 		<true/>
+		<key>shelfEdgeDragEnabled</key>
+		<false/>
 		<key>shelfEnabled</key>
 		<true/>
 		<key>shelfRemoveAfterDrop</key>
 		<false/>
 		<key>shelfShakeToOpen</key>
-		<true/>
+		<false/>
 		<key>shelfShortcut</key>
 		<string>option:6</string>
 		<key>shelfShortcutEnabled</key>
@@ -750,10 +796,12 @@
 		<string>control+option+command:1</string>
 		<key>superKeyEnabled</key>
 		<false/>
+		<key>superKeyModifiers</key>
+		<string>control+option+shift+command</string>
 		<key>superKeySoloAction</key>
 		<string>none</string>
 		<key>supportUpdateIntroVersion</key>
-		<string>3.3.0</string>
+		<string>3.3.2</string>
 		<key>switcherAppRules</key>
 		<dict/>
 		<key>switcherCurrentSpaceOnly</key>
@@ -783,7 +831,7 @@
 		<key>textSnippetsEnabled</key>
 		<false/>
 		<key>updateHighlightsSeenVersion</key>
-		<string>3.3.1</string>
+		<string>3.3.2</string>
 		<key>urlCleanerCustomParameters</key>
 		<string></string>
 		<key>urlCleanerEnabled</key>
@@ -878,7 +926,7 @@
 		<array/>
 	</dict>
 	<key>vorssaintBackupAppVersion</key>
-	<string>3.3.1</string>
+	<string>3.3.2</string>
 	<key>vorssaintBackupVersion</key>
 	<integer>1</integer>
 </dict>
