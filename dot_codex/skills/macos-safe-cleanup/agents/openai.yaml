@@ -1,0 +1,4 @@
+interface:
+  display_name: "macOS 安全清理"
+  short_description: "全面盘点 macOS 新增缓存与残留，逐项确认后清理并保留准确审计清单"
+  default_prompt: "使用 $macos-safe-cleanup 全面检查当前 Mac 的可清理空间，列出精确路径和影响，等我确认后再清理。"

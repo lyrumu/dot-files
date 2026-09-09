@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ivory Etched Record"
+  short_description: "Generate tactile ivory instrument-relief record visuals"
+  default_prompt: "Use $generate-ivory-etched-record to create a restrained music visual with an ivory carved-disc focal object."
