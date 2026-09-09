@@ -1,3 +1,6 @@
 .DS_Store
 **/.DS_Store
 dot_DS_Store
+
+# 忽略 .codex/skills/.system 目录
+dot_codex/skills/dot_system/
