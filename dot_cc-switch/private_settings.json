@@ -24,13 +24,13 @@
     "grokbuild": false,
     "opencode": true,
     "openclaw": false,
-    "hermes": true,
-    "pi": false
+    "hermes": false,
+    "pi": true
   },
-  "currentProviderClaude": "db184384-b983-4c5f-9012-e697df8f8d7c",
+  "currentProviderClaude": "dd066b00-40c8-4ae7-a5ab-e43486252780",
   "skillSyncMethod": "auto",
   "skillStorageLocation": "cc_switch",
-  "preferredTerminal": "iterm2",
+  "preferredTerminal": "ghostty",
   "localMigrations": {
     "codexThirdPartyHistoryProviderBucketV1": {
       "completedAt": "2026-07-26T07:05:10.941474+00:00",

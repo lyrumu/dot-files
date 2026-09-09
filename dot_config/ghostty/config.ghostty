@@ -1,0 +1,40 @@
+# Warm paper: subtle apricot background and dark ink.
+font-family = JetBrainsMono Nerd Font Mono
+font-size = 14
+background = #f3e7da
+foreground = #3b332d
+cursor-color = #b65e3c
+cursor-text = #f3e7da
+selection-background = #dfc5ae
+selection-foreground = #302923
+
+# Restrained transparency keeps CLI output readable.
+background-opacity = 0.92
+background-blur = true
+window-padding-x = 14
+window-padding-y = 10
+
+# Initial size in terminal columns and rows.
+window-width = 140
+window-height = 42
+
+# Show or hide a persistent drop-down terminal from anywhere in macOS.
+keybind = global:ctrl+alt+space=toggle_quick_terminal
+
+# ANSI colors tuned for a light, warm background.
+palette = 0=#403832
+palette = 1=#a33f36
+palette = 2=#48643c
+palette = 3=#856019
+palette = 4=#426786
+palette = 5=#805575
+palette = 6=#356c69
+palette = 7=#c5b5a5
+palette = 8=#76695e
+palette = 9=#b44738
+palette = 10=#55733e
+palette = 11=#936916
+palette = 12=#4b7195
+palette = 13=#916180
+palette = 14=#3c7772
+palette = 15=#faf4ed

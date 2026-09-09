@@ -4,21 +4,21 @@
     "frontend-design@claude-plugins-official": [
       {
         "scope": "user",
-        "installPath": "/Users/lyrumu/.claude/plugins/cache/claude-plugins-official/frontend-design/ed404106fcd8",
-        "version": "ed404106fcd8",
+        "installPath": "/Users/lyrumu/.claude/plugins/cache/claude-plugins-official/frontend-design/517b2fcd1b60",
+        "version": "517b2fcd1b60",
         "installedAt": "2026-08-03T08:31:10.173Z",
-        "lastUpdated": "2026-08-30T04:51:40.293Z",
-        "gitCommitSha": "ed404106fcd80ba98ecb7c851e531dcb626d13b7"
+        "lastUpdated": "2026-09-09T03:42:25.574Z",
+        "gitCommitSha": "517b2fcd1b60fa2181ac52dcf8492361ba341180"
       }
     ],
     "context7@claude-plugins-official": [
       {
         "scope": "user",
-        "installPath": "/Users/lyrumu/.claude/plugins/cache/claude-plugins-official/context7/ed404106fcd8",
-        "version": "ed404106fcd8",
+        "installPath": "/Users/lyrumu/.claude/plugins/cache/claude-plugins-official/context7/517b2fcd1b60",
+        "version": "517b2fcd1b60",
         "installedAt": "2026-08-03T08:32:01.232Z",
-        "lastUpdated": "2026-08-30T04:51:40.293Z",
-        "gitCommitSha": "ed404106fcd80ba98ecb7c851e531dcb626d13b7"
+        "lastUpdated": "2026-09-09T03:42:25.574Z",
+        "gitCommitSha": "517b2fcd1b60fa2181ac52dcf8492361ba341180"
       }
     ],
     "superpowers@claude-plugins-official": [
@@ -34,11 +34,11 @@
     "playwright@claude-plugins-official": [
       {
         "scope": "user",
-        "installPath": "/Users/lyrumu/.claude/plugins/cache/claude-plugins-official/playwright/ed404106fcd8",
-        "version": "ed404106fcd8",
+        "installPath": "/Users/lyrumu/.claude/plugins/cache/claude-plugins-official/playwright/517b2fcd1b60",
+        "version": "517b2fcd1b60",
         "installedAt": "2026-08-03T08:32:39.432Z",
-        "lastUpdated": "2026-08-30T04:51:40.293Z",
-        "gitCommitSha": "ed404106fcd80ba98ecb7c851e531dcb626d13b7"
+        "lastUpdated": "2026-09-09T03:42:25.574Z",
+        "gitCommitSha": "517b2fcd1b60fa2181ac52dcf8492361ba341180"
       }
     ],
     "code-simplifier@claude-plugins-official": [
@@ -54,11 +54,21 @@
     "ponytail@ponytail": [
       {
         "scope": "user",
-        "installPath": "/Users/lyrumu/.claude/plugins/cache/ponytail/ponytail/4.8.4",
-        "version": "4.8.4",
+        "installPath": "/Users/lyrumu/.claude/plugins/cache/ponytail/ponytail/4.9.0",
+        "version": "4.9.0",
         "installedAt": "2026-08-07T06:49:49.935Z",
-        "lastUpdated": "2026-08-07T06:49:49.935Z",
-        "gitCommitSha": "16f29800fd2681bdf24f3eb4ccffe38be3baec6b"
+        "lastUpdated": "2026-09-08T15:03:58.502Z",
+        "gitCommitSha": "356918eba965ee1eac64bd3a7f0dd02108350de5"
+      }
+    ],
+    "andrej-karpathy-skills@karpathy-skills": [
+      {
+        "scope": "user",
+        "installPath": "/Users/lyrumu/.claude/plugins/cache/karpathy-skills/andrej-karpathy-skills/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-09-08T15:02:53.534Z",
+        "lastUpdated": "2026-09-08T15:02:53.534Z",
+        "gitCommitSha": "2c606141936f1eeef17fa3043a72095b4765b9c2"
       }
     ]
   }
