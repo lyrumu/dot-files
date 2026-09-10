@@ -4,3 +4,6 @@ dot_DS_Store
 
 # 忽略 .codex/skills/.system 目录
 dot_codex/skills/dot_system/
+
+# Obsidian 本地窗口状态，不备份
+project/Notes/dot_obsidian/workspace.json

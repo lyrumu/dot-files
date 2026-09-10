@@ -1,2 +1,5 @@
 # 忽略 .codex/skills/.system 目录
 .codex/skills/.system/
+
+# Obsidian 本地窗口状态，不纳管
+project/Notes/.obsidian/workspace.json

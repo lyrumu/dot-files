@@ -1,0 +1,10 @@
+{
+  "strictLineBreaks": true,
+  "propertiesInDocument": "source",
+  "newFileLocation": "current",
+  "attachmentFolderPath": "./assets",
+  "alwaysUpdateLinks": true,
+  "showUnsupportedFiles": true,
+  "newLinkFormat": "relative",
+  "promptDelete": false
+}
