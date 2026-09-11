@@ -77,6 +77,15 @@
       "pluginName": "mattpocock-skills",
       "installedAt": "2026-08-19T10:01:09.795Z",
       "updatedAt": "2026-08-19T10:01:09.795Z"
+    },
+    "ppt-master": {
+      "source": "hugohe3/ppt-master",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/hugohe3/ppt-master.git",
+      "skillPath": "skills/ppt-master/SKILL.md",
+      "skillFolderHash": "e9c89e3282820eed3a5d24451b8054dd0038edf1",
+      "installedAt": "2026-09-11T08:01:07.389Z",
+      "updatedAt": "2026-09-11T08:01:07.389Z"
     }
   },
   "dismissed": {
@@ -84,14 +93,13 @@
   },
   "lastSelectedAgents": [
     "amp",
-    "antigravity",
-    "antigravity-cli",
     "cline",
     "codex",
     "cursor",
-    "deepagents",
+    "droid",
     "gemini-cli",
     "github-copilot",
+    "kilo",
     "kimi-code-cli",
     "opencode",
     "warp",
