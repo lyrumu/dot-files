@@ -7,7 +7,7 @@
   "launchOnStartup": false,
   "silentStartup": false,
   "enableLocalProxy": true,
-  "usageDashboardRefreshIntervalMs": 10000,
+  "usageDashboardRefreshIntervalMs": 60000,
   "sessionAutoSyncEnabled": true,
   "enableFailoverToggle": false,
   "showProfileSwitcher": true,
